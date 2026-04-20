@@ -1,0 +1,531 @@
+<html>
+
+<head>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<style>
+
+#principal {
+   
+   margin: auto;
+width: 1200px;
+height: 800px;
+background-color: blueviolet;
+border-radius: 5%;
+background: linear-gradient(to bottom,#313131,#7a03c4);
+
+}
+
+#principalderecho {
+width: 900px;
+height: 750px;
+background-color: white;
+border-radius: 5%;
+float:right;
+margin-right: 2%;
+margin-top: 2%;
+
+    
+}
+
+#principalizquierdo {
+
+    width: 230px;
+height: 750px;
+
+border-radius: 5%;
+float:left;
+margin-left: 2%;
+margin-top: 2%;
+
+}
+
+#principalizquierdoinferior {
+   width: 210px;
+height: 270px;
+background: linear-gradient(to bottom,#CF52EB,#9826B9);
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+
+    
+}
+#principalizquierdosuperior {
+   width: 210px;
+height: 450px;
+
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+
+    
+}
+
+
+
+#central {
+   width: 550px;
+height: 730px;
+
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+
+#centralsuperior {
+   width: 520px;
+height: 400px;
+
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+
+#titulo {
+   width: 500px;
+height: 70px;
+
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+#imagencentral {
+   width: 500px;
+height: 290px;
+background-color: #a21166;
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+
+#centralinferior {
+   width: 520px;
+height: 300px;
+background-color: #480457;
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+#titulo1 {
+   width: 280px;
+height: 40px;
+
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+#titulo2 {
+   width: 280px;
+height: 80px;
+background-color: #87476c;
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+#titulo3 {
+   width: 280px;
+height: 240px;
+background-color: #370f26;
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+#principalderecho2 {
+
+width: 300px;
+height: 400px;
+background-color: #CF52EB;
+border-radius: 5%;
+float:right;
+margin-right: 2%;
+margin-top: 2%;
+
+}
+
+#principalderecho3 {
+
+width: 300px;
+height: 300px;
+background: linear-gradient(to bottom,#CF52EB,#350143);
+border-radius: 5%;
+float:right;
+margin-right: 2%;
+margin-top: 2%;
+
+}
+#principalderechop {
+
+width: 320px;
+height: 720px;
+
+border-radius: 5%;
+float:right;
+margin-right: 1%;
+margin-top: 2%;
+
+}
+#titulo4 {
+   width: 500px;
+height: 60px;
+
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+#titulo5 {
+   width: 500px;
+height: 100px;
+background-color: #87476c;
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+#titulo6 {
+   width: 500px;
+height: 100px;
+background-color: #370f26;
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+
+
+#titulo7 {
+   width: 280px;
+height: 100px;
+background-color: #debacf;
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+#titulo8 {
+   width: 280px;
+height: 80px;
+
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+#titulo9 {
+   width: 280px;
+height: 80px;
+
+border-radius: 5%;
+float:left;
+margin-left: 10px;
+margin-top: 10px;
+  
+}
+ #audioPlayer {
+            width: 270px;
+            margin: 20px 0;
+            background-color: #350143;
+        }
+
+         .search-container {
+    width: 280px;
+    margin: 100px auto;
+    position: relative;
+  }
+
+  .search-input {
+    width: 250px;
+    height: 40px;
+    padding: 12px 15px 12px 40px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+
+  .search-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #0d0d0d;
+  }
+
+
+ 
+
+
+
+
+
+body {
+    background: linear-gradient(135deg, #1e1e2f, #121212);
+    height: 100vh;
+    display: flex;
+}
+
+/* Sidebar */
+
+
+/* Logo */
+
+
+/* Menu */
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+/* Iconos */
+.menu i {
+    font-size: 18px;
+}
+
+/* Hover */
+.menu a:hover {
+    background: linear-gradient(135deg, #ff4d6d, #ff758f);
+    color: #fff;
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(255, 77, 109, 0.4);
+}
+
+/* Activo */
+.menu a.active {
+    background: linear-gradient(135deg, #ff4d6d, #ff758f);
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    color: #aaa;
+    font-size: 13px;
+    text-align: center;
+}
+</style>
+
+</style>
+
+
+</head>
+
+<body bgcolor="black">
+
+<div id="principal">
+
+   <div id="principalizquierdo">
+
+        <div id="principalizquierdosuperior">
+
+<div class="sidebar">
+
+  <div class="profile">
+    <i class="fa-regular fa-user"></i>
+    <h2><font color="white">Karen</font><br><font color="white">Lorena</font></h2>
+  </div>
+
+  <div class="menu-section">
+    <h3></h3>
+    <ul class="menu">
+      <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+      <li><a href="#"><i class="fa fa-music"></i> Géneros</a></li>
+      <li><a href="#"><i class="fa fa-compact-disc"></i> Álbums</a></li>
+      <li><a href="#"><i class="fa fa-user"></i> Artistas</a></li>
+      <li><a href="#"><i class="fa fa-podcast"></i> Podcas</a></li>
+      <li><a href="#"><i class="fa fa-microphone"></i> Karaoke</a></li>
+    </ul>
+  </div>
+
+  
+
+</div>
+
+         
+        </div>
+        <div id="principalizquierdoinferior"></div>
+
+   </div>
+<div id="principalderecho">
+<div id="central">
+
+        <div id="centralsuperior">
+            <div id="titulo"><h1>HOME</h1></div>
+            <div id="imagencentral">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Salsa Variada Mix</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Salsa Romantica Mix</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Mix de electronica</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+          <div id="centralinferior">
+            <div id="titulo4">Playlist</div>
+            <div id="titulo5"></div>
+             <div id="titulo6">
+<ul id="playlist">
+        <li><a href='#' data-src='musica.mp3'>Musica Mix</a>
+        </li><li><a href='#' data-src='music/GATA ONLY - FloyyMenor, Cris MJ.mp3'>GATA ONLY - FloyyMenor, Cris MJ.mp3</a></li>
+        <li><a href='#' data-src='music/Gigi D'Agostino - L'Amour Toujours.mp3'>Gigi D'Agostino - L'Amour Toujours.mp3</a></li>
+        <li><a href='#' data-src='music/Lo Mejor del Reggaeton.mp3'>Lo Mejor del Reggaeton.mp3</a></li> 
+       </ul>
+
+
+             </div>
+
+
+        </div>
+
+</div>
+
+
+
+   
+
+   
+
+<div id="principalderechop">
+<div id="principalderecho2">
+
+        <div id="titulo1">
+  🔍
+  <input type="text" class="search-input" placeholder="Buscar...">
+</div>
+        <div id="titulo2"></div>
+        <div id="titulo3"></div>
+
+
+   </div>
+
+<div id="principalderecho3">
+
+        <div id="titulo7"></div>
+        <div id="titulo8"><img src="eq.gif" width="280" height="80"></div>
+        <div id="titulo9"><audio id="audioPlayer" controls>
+        <source id="audioSource" src="" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio></div>
+
+
+   </div>
+
+
+    </div> 
+
+
+</div>
+
+</div>
+
+
+
+</body>
+
+<script>
+        const audioPlayer = document.getElementById('audioPlayer');
+        const audioSource = document.getElementById('audioSource');
+        const playlist = document.getElementById('playlist');
+        const links = playlist.getElementsByTagName('a');
+        const songTitle = document.getElementById('songTitle');
+
+        for (let link of links) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                audioSource.src = this.getAttribute('data-src');
+                audioPlayer.load();
+                audioPlayer.play();
+                
+                // Actualizar el título de la canción
+                songTitle.textContent = this.textContent;
+            });
+        }
+    </script>
+
+
+
+</html>
